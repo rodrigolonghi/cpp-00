@@ -20,7 +20,7 @@ $(OBJ_DIR):
 	mkdir -p $@
 
 clean:
-	rm -rf obj
+	rm -rf $(OBJ_DIR)
 
 fclean:	clean
 	rm -f $(NAME)
